@@ -1,0 +1,23 @@
+package _09_Enumeracoes_Composicao.aula_02_ExercicioResolvido_01.entities;
+
+public class Department {
+
+	private String name;
+
+	public Department() {
+	}
+
+	public Department(String name) {
+		super();
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+}
